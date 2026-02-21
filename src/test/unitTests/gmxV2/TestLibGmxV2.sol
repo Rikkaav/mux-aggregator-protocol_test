@@ -9,7 +9,7 @@ import "../../../aggregators/gmxV2/interfaces/IGmxV2Adatper.sol";
 import "../../../aggregators/gmxV2/interfaces/gmx/IReader.sol";
 import "../../../interfaces/ILiquidityPool.sol";
 
-import "hardhat/console.sol";
+import "forge-std/console.sol";
 
 contract TestLibGmxV2 {
     using LibGmxV2 for IGmxV2Adatper.GmxAdapterStoreV2;

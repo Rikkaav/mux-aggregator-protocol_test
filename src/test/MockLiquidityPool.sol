@@ -6,7 +6,7 @@ import "@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeab
 
 import "../interfaces/ILiquidityPool.sol";
 
-import "hardhat/console.sol";
+import "forge-std/console.sol";
 
 contract MockLiquidityPool is ILiquidityPool {
     using SafeERC20Upgradeable for IERC20Upgradeable;

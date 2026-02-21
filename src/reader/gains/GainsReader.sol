@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity 0.8.17;
 
 import "./interfaces/IGNSMultiCollatDiamond.sol";
 import "./interfaces/types/IPairsStorage.sol";

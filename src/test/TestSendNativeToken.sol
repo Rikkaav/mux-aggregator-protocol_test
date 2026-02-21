@@ -3,7 +3,7 @@ pragma solidity 0.8.17;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/utils/Address.sol";
-import "hardhat/console.sol";
+import "forge-std/console.sol";
 
 import "../interfaces/IWETH.sol";
 import "../aggregators/gmx/libs/LibUtils.sol";

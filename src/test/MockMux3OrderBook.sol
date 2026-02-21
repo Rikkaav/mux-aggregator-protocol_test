@@ -4,7 +4,7 @@ pragma solidity 0.8.17;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 import "../interfaces/IMux3OrderBook.sol";
-import "hardhat/console.sol";
+import "forge-std/console.sol";
 
 contract MockMux3OrderBook is IMux3OrderBook {
     uint256 public lastWrapNativeAmount;

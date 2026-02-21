@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity 0.8.17;
 
 import "../types/IUpdateLeverage.sol";
 import "../types/ITradingStorage.sol";

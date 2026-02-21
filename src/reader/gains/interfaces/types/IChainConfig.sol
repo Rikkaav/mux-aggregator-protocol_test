@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity 0.8.17;
 
 /**
  * @dev Contains the types for the GNSChainConfig facet

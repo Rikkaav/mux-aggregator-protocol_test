@@ -1,6 +1,6 @@
 @openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
 @openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/
 @chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/
-@uniswap/v3-core/=lib/v3-core/contracts/
-@uniswap/v3-periphery/=lib/v3-periphery/contracts/
+@uniswap/v3-core/=lib/v3-core/
+@uniswap/v3-periphery/=lib/v3-periphery/
 forge-std/=lib/forge-std/src/

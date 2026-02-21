@@ -8,7 +8,7 @@ import "../../../aggregators/gmxV2/interfaces/IGmxV2Adatper.sol";
 import "../../../aggregators/gmxV2/interfaces/gmx/IReader.sol";
 import "../../../interfaces/ILiquidityPool.sol";
 
-import "hardhat/console.sol";
+import "forge-std/console.sol";
 
 contract TestLibDebt {
     using LibDebt for IGmxV2Adatper.GmxAdapterStoreV2;

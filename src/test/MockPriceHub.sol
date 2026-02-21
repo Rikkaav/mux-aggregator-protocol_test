@@ -3,7 +3,7 @@ pragma solidity 0.8.17;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-import "hardhat/console.sol";
+import "forge-std/console.sol";
 
 contract MockPriceHub {
     mapping(address => uint256) prices;
