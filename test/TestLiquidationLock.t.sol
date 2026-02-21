@@ -70,7 +70,7 @@ contract TestLiquidationLock is Test {
     }
 
     function setUp() public {
-        vm.createSelectFork(("https://arb-mainnet.g.alchemy.com/v2/qhHit9Ic7oNotc78jpTX7D9avK9yn-tw"), FORK_BLOCK);
+        vm.createSelectFork(("RPC_URL"), FORK_BLOCK);
 
         user = makeAddr("user");
         vm.deal(user, 100 ether);
